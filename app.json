@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-my-devices-app",
-    "slug": "expo-my-devices-app",
+    "name": "expo-account-devices-app",
+    "slug": "expo-account-devices-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
