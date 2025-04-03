@@ -2,7 +2,7 @@ import React from 'react';
 import { FlatList, Text, View, StyleSheet } from 'react-native';
 
 export default function DeviceList({ devices }) {
-  console.log("Devices are", devices)
+
   return (
     <FlatList
       data={devices}

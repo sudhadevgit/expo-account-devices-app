@@ -9,8 +9,6 @@ export default function AccountDetailScreen({ route, navigation }) {
   const { loading, error, data, refetch } = useQuery(GET_ACCOUNT_WITH_DEVICES, {
     variables: { getAccountId: accountId },
   });
-  console.log("accountId is ", accountId);
-  console.log("account details data is ", data);
 
   if (loading) return <Text>Loading...</Text>;
   if (error) return <Text>Error: {error.message}</Text>;

@@ -25,9 +25,9 @@ export default function CreateDeviceScreen() {
           },
         },
       });
-      console.log("Created device is", data);
+
       if (onDeviceCreated) {
-        onDeviceCreated(); // Call the function to refresh data on the parent screen
+        onDeviceCreated();
       }
       navigation.goBack();
     } catch (err) {
