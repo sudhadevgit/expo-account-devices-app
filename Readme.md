@@ -4,6 +4,7 @@ This is a simple React Native application built using Expo and integrates Apollo
 It also uses React Navigation for navigating between different screens.
 
 **Features**
+
 . **Navigation**: Utilizes React Navigation's stack navigator for seamless screen transitions.
 
 . **Apollo Client** : Handles data fetching using GraphQL in the app.
@@ -20,9 +21,10 @@ It also uses React Navigation for navigating between different screens.
 
 
 **Prerequisites**
+
 Make sure you have Node.js installed. You can download it from here.
 
-Install Expo CLI globally if you haven’t already:
+Install Expo CLI globally if not present:
 
         npm install -g expo-cli
 
@@ -31,6 +33,7 @@ Install Expo CLI globally if you haven’t already:
 
 1. **Clone the Repository:**
 
+        clone in your local directory:
         git clone https://github.com/sudhadevgit/expo-account-devices-app.git
         cd expo-account-devices-app
 
