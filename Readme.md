@@ -37,22 +37,29 @@ Install Expo CLI globally if not present:
         git clone https://github.com/sudhadevgit/expo-account-devices-app.git
         cd expo-account-devices-app
 
-2. **Install Dependencies:**
+2. **Manual Install Dependencies:**
 
         npm install
 
-3. ***IMP*** update below uri in "src/api/client.js" to the local running graphgql federation server :
+3. ***IMP:*** update below uri in "src/api/client.js" to the running graphgql federation server URL :
 which was setup using https://github.com/sudhadevgit/gql-federation-services
 
-        uri: 'http://192.168.0.30:4000/graphql'
+        uri: 'http://localhost:4000/graphql'
 
-3. **Run the App:**
+4. **Run the App:**
 
         npm start
 
 
 This will start the development server. Scan the QR code in the terminal with the Expo Go app on your mobile device or run it on an Android/iOS emulator or on web 
 http://localhost:8081/
+
+4. **OR Docker Install**
+        
+        docker-compose build
+        docker-compose up
+
+        Check if http://localhost:8081/  is up and running
 
 
 **Project Structure**
