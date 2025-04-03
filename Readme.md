@@ -41,6 +41,11 @@ Install Expo CLI globally if not present:
 
         npm install
 
+3. ***IMP*** update below uri in "src/api/client.js" to the local running graphgql federation server :
+which was setup using https://github.com/sudhadevgit/gql-federation-services
+
+        uri: 'http://192.168.0.30:4000/graphql'
+
 3. **Run the App:**
 
         npm start
