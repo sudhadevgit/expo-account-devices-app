@@ -24,7 +24,7 @@ export default function AccountDetailScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{account.name}</Text>
-      <Text>{account.email}</Text>
+      <Text style={styles.textfield}>{account.email}</Text>
       
       <Button
         title="Add New Device"
@@ -46,6 +46,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 8,
+  },
+  textfield: {
+    marginBottom: 16,
   },
   subtitle: {
     fontSize: 18,
