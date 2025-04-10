@@ -6,9 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "19000:19000"  # Expo DevTools
-      - "19001:19001"  # Expo Dev Server
-  
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+      - "8081:8081"  
     volumes:
       - .:/app
       - /app/node_modules
